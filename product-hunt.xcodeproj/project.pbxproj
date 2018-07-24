@@ -13,6 +13,8 @@
 		20ACBDBD2106EEB2002D7386 /* product_hunt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20ACBDBB2106EEB2002D7386 /* product_hunt.xcdatamodeld */; };
 		20ACBDBF2106EEB3002D7386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ACBDBE2106EEB3002D7386 /* Assets.xcassets */; };
 		20ACBDC22106EEB3002D7386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20ACBDC02106EEB3002D7386 /* LaunchScreen.storyboard */; };
+		20ACBDCC2106EF46002D7386 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ACBDCB2106EF45002D7386 /* NetworkManager.swift */; };
+		20E3D5EB2106EFEE0019BDDA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E3D5EA2106EFEE0019BDDA /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		20ACBDBE2106EEB3002D7386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20ACBDC12106EEB3002D7386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20ACBDC32106EEB3002D7386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20ACBDCB2106EF45002D7386 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		20E3D5EA2106EFEE0019BDDA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		20ACBDB32106EEB1002D7386 /* product-hunt */ = {
 			isa = PBXGroup;
 			children = (
+				20E3D5E92106EFC40019BDDA /* Models */,
+				20ACBDCA2106EF20002D7386 /* Network Services */,
 				20ACBDB42106EEB2002D7386 /* AppDelegate.swift */,
 				20ACBDB62106EEB2002D7386 /* ViewController.swift */,
 				20ACBDB82106EEB2002D7386 /* Main.storyboard */,
@@ -65,6 +71,22 @@
 				20ACBDBB2106EEB2002D7386 /* product_hunt.xcdatamodeld */,
 			);
 			path = "product-hunt";
+			sourceTree = "<group>";
+		};
+		20ACBDCA2106EF20002D7386 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				20ACBDCB2106EF45002D7386 /* NetworkManager.swift */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
+		20E3D5E92106EFC40019BDDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20E3D5EA2106EFEE0019BDDA /* Product.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ACBDCC2106EF46002D7386 /* NetworkManager.swift in Sources */,
 				20ACBDB72106EEB2002D7386 /* ViewController.swift in Sources */,
+				20E3D5EB2106EFEE0019BDDA /* Product.swift in Sources */,
 				20ACBDB52106EEB2002D7386 /* AppDelegate.swift in Sources */,
 				20ACBDBD2106EEB2002D7386 /* product_hunt.xcdatamodeld in Sources */,
 			);
